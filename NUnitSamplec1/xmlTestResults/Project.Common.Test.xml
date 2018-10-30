@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="72" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-08-01 10:06:09Z" end-time="2018-08-01 10:08:15Z" duration="125.312787">
+  <command-line><![CDATA["E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Nunit\nunit3-console.exe" E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\bin\Debug\CBSAutomation.dll "--test=CBSAutomation.TestScripts.CreateCustomer, CBSAutomation.TestScripts.CreateMaterial," --framework=net-4.5 --labels=off --work=E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\xmlTestResults --result=Project.Common.Test.xml;format=nunit3]]></command-line>
+  <filter>
+    <or>
+      <test>CBSAutomation.TestScripts.CreateCustomer</test>
+      <test>CBSAutomation.TestScripts.CreateMaterial</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1096" name="CBSAutomation.dll" fullname="E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\bin\Debug\CBSAutomation.dll" runstate="Runnable" testcasecount="72" result="Passed" start-time="2018-08-01 10:06:10Z" end-time="2018-08-01 10:08:15Z" duration="124.554767" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\Users\veenahon" machine-name="VEENAHON-W10LT" user="veenahon" user-domain="EFI" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="RuntimeFramework" value="net-4.5" />
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\xmlTestResults" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="36832" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1097" name="CBSAutomation" fullname="CBSAutomation" runstate="Runnable" testcasecount="72" result="Passed" start-time="2018-08-01 10:06:10Z" end-time="2018-08-01 10:08:15Z" duration="124.531291" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="0-1098" name="TestScripts" fullname="CBSAutomation.TestScripts" runstate="Runnable" testcasecount="72" result="Passed" start-time="2018-08-01 10:06:10Z" end-time="2018-08-01 10:08:15Z" duration="124.530694" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1040" name="CreateCustomer" fullname="CBSAutomation.TestScripts.CreateCustomer" classname="CBSAutomation.TestScripts.CreateCustomer" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-08-01 10:06:10Z" end-time="2018-08-01 10:07:05Z" duration="54.751965" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="0-1041" name="CreateCustomerTest1" fullname="CBSAutomation.TestScripts.CreateCustomer.CreateCustomerTest1" methodname="CreateCustomerTest1" classname="CBSAutomation.TestScripts.CreateCustomer" runstate="Runnable" seed="73393175" result="Passed" start-time="2018-08-01 10:06:19Z" end-time="2018-08-01 10:06:57Z" duration="38.178269" asserts="0" />
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1036" name="CreateMaterial" fullname="CBSAutomation.TestScripts.CreateMaterial" classname="CBSAutomation.TestScripts.CreateMaterial" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-08-01 10:07:05Z" end-time="2018-08-01 10:08:15Z" duration="69.757630" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="0-1038" name="CreateCoatingColourMaterial" fullname="CBSAutomation.TestScripts.CreateMaterial.CreateCoatingColourMaterial" methodname="CreateCoatingColourMaterial" classname="CBSAutomation.TestScripts.CreateMaterial" runstate="Runnable" seed="2013161216" result="Passed" start-time="2018-08-01 10:07:12Z" end-time="2018-08-01 10:07:32Z" duration="19.724642" asserts="0" />
+          <test-case id="0-1039" name="CreateGlueColourMaterial" fullname="CBSAutomation.TestScripts.CreateMaterial.CreateGlueColourMaterial" methodname="CreateGlueColourMaterial" classname="CBSAutomation.TestScripts.CreateMaterial" runstate="Runnable" seed="487323943" result="Passed" start-time="2018-08-01 10:07:32Z" end-time="2018-08-01 10:07:51Z" duration="18.909220" asserts="0" />
+          <test-case id="0-1037" name="CreateInkColourMaterial" fullname="CBSAutomation.TestScripts.CreateMaterial.CreateInkColourMaterial" methodname="CreateInkColourMaterial" classname="CBSAutomation.TestScripts.CreateMaterial" runstate="Runnable" seed="693901514" result="Passed" start-time="2018-08-01 10:07:51Z" end-time="2018-08-01 10:08:10Z" duration="19.123478" asserts="0" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

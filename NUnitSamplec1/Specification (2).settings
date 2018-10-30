@@ -1,0 +1,411 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="Specification">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProductMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">menuLIProductManagement0</Value>
+    </Setting>
+    <Setting Name="SpecificationMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiSpecifications0</Value>
+    </Setting>
+    <Setting Name="CreateNew" Type="System.String" Scope="User">
+      <Value Profile="(Default)">createNew</Value>
+    </Setting>
+    <Setting Name="spec_number_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">productLinkDisplay</Value>
+    </Setting>
+    <Setting Name="customer_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bill-to-customer</Value>
+    </Setting>
+    <Setting Name="specID_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SpecID</Value>
+    </Setting>
+    <Setting Name="productstyle_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">productstyle</Value>
+    </Setting>
+    <Setting Name="productGL_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#divExternalCode &gt; #product-external-code</Value>
+    </Setting>
+    <Setting Name="materialGrade_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">material-grade-link-field</Value>
+    </Setting>
+    <Setting Name="Spec_supplier_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ddlProductBoardSupplier</Value>
+    </Setting>
+    <Setting Name="lenght_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FL</Value>
+    </Setting>
+    <Setting Name="Width_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FW</Value>
+    </Setting>
+    <Setting Name="Depth_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FD</Value>
+    </Setting>
+    <Setting Name="Recalculate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ReCalculate</Value>
+    </Setting>
+    <Setting Name="MaterialandOperationAddOn_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">autoEditBox</Value>
+    </Setting>
+    <Setting Name="CutomerDropdwon_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="bill-to-customer-container"]/div/div/ul/li/a</Value>
+    </Setting>
+    <Setting Name="ProductStyleDropdown_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="divProductStyleSelector"]/div/ul/li/a</Value>
+    </Setting>
+    <Setting Name="GL_code_IDDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="divExternalCode"]/div/ul/li/a</Value>
+    </Setting>
+    <Setting Name="Material_grade_dropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#divBoard &gt; div.custom-autocomplite-field.not-full-width &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="validate_Save_Button_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">validateButton</Value>
+    </Setting>
+    <Setting Name="Bussiness_Spec_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#div-buttons &gt; #show-estimates</Value>
+    </Setting>
+    <Setting Name="New_Buss_Spec_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">create-new-business-spec</Value>
+    </Setting>
+    <Setting Name="Operation_grid_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="productOperation"]/tbody/tr[2]/td[4]</Value>
+    </Setting>
+    <Setting Name="CheckRoutings_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div.control-group &gt; #div-buttons &gt; #check-routing</Value>
+    </Setting>
+    <Setting Name="RoutingList_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">route-list</Value>
+    </Setting>
+    <Setting Name="RouteCLose_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">modalTestRouting</Value>
+    </Setting>
+    <Setting Name="Save_ProductEstimate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save-without-validation</Value>
+    </Setting>
+    <Setting Name="ProductDataestimate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">divProdDataForEstimateTool</Value>
+    </Setting>
+    <Setting Name="EstimateList_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">estimates-content-container</Value>
+    </Setting>
+    <Setting Name="CreateEstimate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">create-estimate</Value>
+    </Setting>
+    <Setting Name="CostModel_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">costModel</Value>
+    </Setting>
+    <Setting Name="Qauntity_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Quantity</Value>
+    </Setting>
+    <Setting Name="SaveAndGenerateRoutes_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">get-routes-for-estimate</Value>
+    </Setting>
+    <Setting Name="RoutesGenrated_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">routes-grids</Value>
+    </Setting>
+    <Setting Name="SelectUnitization_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">select-unitizing-type-button</Value>
+    </Setting>
+    <Setting Name="UnitizationTable_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="unitizing-types"]/tbody</Value>
+    </Setting>
+    <Setting Name="costmodeldropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div.custom-autocomplite-field &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="UnitizationGrid_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">all-unitizing-types-modal</Value>
+    </Setting>
+    <Setting Name="Split_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#pEstimateRoute &gt; input.btn.devide-button</Value>
+    </Setting>
+    <Setting Name="CreateEstimatePrice_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">get-pricing</Value>
+    </Setting>
+    <Setting Name="Calculate_Price_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">calculate-prices</Value>
+    </Setting>
+    <Setting Name="EstimatePriceList_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gview_estimate-price-table</Value>
+    </Setting>
+    <Setting Name="SavePriceList_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save-prices</Value>
+    </Setting>
+    <Setting Name="ApprovePriceList_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save-prices-and-approve</Value>
+    </Setting>
+    <Setting Name="SaveAlert_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="price-saved-message"]/div/div/div[3]/button</Value>
+    </Setting>
+    <Setting Name="UnitizationModel_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">all-unitizing-types-modal</Value>
+    </Setting>
+    <Setting Name="AddMatrial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">autoEditBox</Value>
+    </Setting>
+    <Setting Name="AddMatrialDropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="AllOperation_grid_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="productOperation"]/tbody</Value>
+    </Setting>
+    <Setting Name="Operation_Delete_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="pProductOperation_left"]/table/tbody/tr/td[1]</Value>
+    </Setting>
+    <Setting Name="Suppliersubmit_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sData</Value>
+    </Setting>
+    <Setting Name="MaterialAddon_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="prodDataForEstimateMaterial"]/tbody/tr[2]</Value>
+    </Setting>
+    <Setting Name="Datpicker_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ui-datepicker-div</Value>
+    </Setting>
+    <Setting Name="SaveProdEstimate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save-without-validation</Value>
+    </Setting>
+    <Setting Name="MaterialAddonInSpec_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">divProdDataForEstimateMaterial</Value>
+    </Setting>
+    <Setting Name="ToolLink_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#editmodproductOperation &gt; div#editcntproductOperation &gt; div &gt; form#FrmGrid_productOperation &gt; table#TblGrid_productOperation &gt; tbody &gt; tr#tr_ToolLinkText &gt; td.DataTD &gt; input#ToolLinkText</Value>
+    </Setting>
+    <Setting Name="NUmberOfColour_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OperationProperties.NumberOfColors</Value>
+    </Setting>
+    <Setting Name="SubmitTool_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#editcntproductOperation &gt; div &gt; table#TblGrid_productOperation_2 &gt; tbody &gt; tr#Act_Buttons &gt; td.EditButton &gt; a#sData</Value>
+    </Setting>
+    <Setting Name="ToolLinkDropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#editmodproductOperation &gt; div#editcntproductOperation &gt; div &gt; form#FrmGrid_productOperation &gt; table#TblGrid_productOperation &gt; tbody &gt; tr#tr_ToolLinkText &gt; td.DataTD &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all&gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="AllMaterial_grid_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="productMaterial"]/tbody</Value>
+    </Setting>
+    <Setting Name="ColourPercentage_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialProperties.PercentCoverage</Value>
+    </Setting>
+    <Setting Name="ColourUnitsWasted_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialProperties.NumberOfCostUnitWasted</Value>
+    </Setting>
+    <Setting Name="ColourPercentageSubmit_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">table#TblGrid_productMaterial_2 &gt; tbody &gt; tr#Act_Buttons &gt; td.EditButton &gt; a#sData</Value>
+    </Setting>
+    <Setting Name="ProductEstimateInformation_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//form[@action="/CBSnew/ProductDataForEstimate/Edit"]</Value>
+    </Setting>
+    <Setting Name="DiecutToolid_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#editmodproductOperation &gt; div#editcntproductOperation &gt; div &gt; form#FrmGrid_productOperation &gt; table#TblGrid_productOperation &gt; tbody &gt; tr#tr_ToolLinkText &gt; td.DataTD &gt; input#ToolLinkText</Value>
+    </Setting>
+    <Setting Name="ToolIDdropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#editmodproductOperation &gt; div#editcntproductOperation &gt; div &gt; form#FrmGrid_productOperation &gt; table#TblGrid_productOperation &gt; tbody &gt; tr#tr_ToolLinkText &gt; td.DataTD &gt; input#ToolLinkText &gt; div.ui-autocomplete-pagination-results &gt; ul:nth-child(1) &gt; li:nth-child(2) &gt; a</Value>
+    </Setting>
+    <Setting Name="DieCutNumberUP_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#editmodproductOperation &gt; div#editcntproductOperation &gt; div &gt; form#FrmGrid_productOperation &gt; table#TblGrid_productOperation &gt; tbody &gt; tr#tr_OperationProperties.NumberUp &gt; td.DataTD &gt; input#OperationProperties.NumberUp</Value>
+    </Setting>
+    <Setting Name="DieCutNumberOUT_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#editmodproductOperation &gt; div#editcntproductOperation &gt; div &gt; form#FrmGrid_productOperation &gt; table#TblGrid_productOperation &gt; tbody &gt; tr#tr_OperationProperties.NumberOut &gt; td.DataTD &gt; input#OperationProperties.NumberOut</Value>
+    </Setting>
+    <Setting Name="Bundlestarpping_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all'])[9]/li[1]/a</Value>
+    </Setting>
+    <Setting Name="StrappingprodData_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="prodDataForEstimateMaterial"]/tbody/tr[2]</Value>
+    </Setting>
+    <Setting Name="StappingCost_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cost</Value>
+    </Setting>
+    <Setting Name="CostStartDate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CostStartDate</Value>
+    </Setting>
+    <Setting Name="CostSubmit_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">table#TblGrid_prodDataForEstimateMaterial_2 &gt; tbody &gt; tr#Act_Buttons &gt; td.EditButton &gt; a#sData</Value>
+    </Setting>
+    <Setting Name="ProductDataforEstimateMat_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">divProdDataForEstimateMaterial</Value>
+    </Setting>
+    <Setting Name="PricingType_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#pricing-screen &gt; div.row-fluid &gt; div#estimate-price &gt; div#estimate-pricing &gt; fieldset &gt; div &gt; div &gt; select</Value>
+    </Setting>
+    <Setting Name="PricingMetricvalue_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">form-validation-field-0</Value>
+    </Setting>
+    <Setting Name="addqty_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">add-qty</Value>
+    </Setting>
+    <Setting Name="FromToTable_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="prices-and-quantities"]/tbody</Value>
+    </Setting>
+    <Setting Name="businesdiscount_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">business-discount-link</Value>
+    </Setting>
+    <Setting Name="estimatepricetable_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gview_estimate-price-table</Value>
+    </Setting>
+    <Setting Name="CosttableValues_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#gview_estimate-price-table &gt; div.ui-state-default.ui-jqgrid-hdiv &gt; div.ui-jqgrid-hbox &gt; table.ui-jqgrid-htable &gt; thead &gt; tr.ui-jqgrid-labels.jqg-second-row-header &gt; th:nth-child(2) &gt; a.grid-header-link</Value>
+    </Setting>
+    <Setting Name="CosttableValues1_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#gview_estimate-price-table &gt; div.ui-state-default.ui-jqgrid-hdiv &gt; div.ui-jqgrid-hbox &gt; table.ui-jqgrid-htable &gt; thead &gt; tr.ui-jqgrid-labels.jqg-second-row-header &gt; th:nth-child(3) &gt; a.grid-header-link</Value>
+    </Setting>
+    <Setting Name="FactoryTicket_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Factory Ticket</Value>
+    </Setting>
+    <Setting Name="EstimateCost_LINK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Estimate Cost</Value>
+    </Setting>
+    <Setting Name="setasManufacturable_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">set-as-Manufacturable</Value>
+    </Setting>
+    <Setting Name="CostEstimate_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="list2"]/tbody/tr[2]</Value>
+    </Setting>
+    <Setting Name="RouteList_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="list5"]/tbody</Value>
+    </Setting>
+    <Setting Name="materialList_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="list11"]/tbody</Value>
+    </Setting>
+    <Setting Name="CostMaterialList_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="list16"]/tbody/tr[2]</Value>
+    </Setting>
+    <Setting Name="InkColourMaterial_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all'])[8]/li[1]/a</Value>
+    </Setting>
+    <Setting Name="ProdDataMaterialID_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialID</Value>
+    </Setting>
+    <Setting Name="ProdDataToolType_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="prodDataForEstimateToolType"]/tbody/tr[2]</Value>
+    </Setting>
+    <Setting Name="ProdDataToolName_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="prodDataForEstimateToolType"]/tbody/tr[2]/td[2]</Value>
+    </Setting>
+    <Setting Name="ProdDataToolID_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ToolID</Value>
+    </Setting>
+    <Setting Name="ProdDataToolCost_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">table#TblGrid_prodDataForEstimateToolType &gt; tbody &gt; tr:nth-child(7) &gt; td:nth-child(2)  &gt; input#Cost</Value>
+    </Setting>
+    <Setting Name="ToolPricingType_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ToolPricingType</Value>
+    </Setting>
+    <Setting Name="ToolPricingTypeDropDown_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">table#TblGrid_prodDataForEstimateToolType &gt; tbody &gt; tr#tr_ToolPricingType &gt; td.DataTD &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="ToolPricingTypeSubmit_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">table#TblGrid_prodDataForEstimateToolType_2 &gt; tbody &gt; tr#Act_Buttons &gt; td.EditButton &gt; a#sData</Value>
+    </Setting>
+    <Setting Name="ProductMaterialInk_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="productMaterial"]/tbody</Value>
+    </Setting>
+    <Setting Name="PercentCoverage_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialProperties.PercentCoverage</Value>
+    </Setting>
+    <Setting Name="NumberOfCostUnitWasted_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialProperties.NumberOfCostUnitWasted</Value>
+    </Setting>
+    <Setting Name="SubmitCoverage_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">table#TblGrid_productMaterial_2 &gt; tbody &gt; tr#Act_Buttons &gt; td.EditButton &gt; a#sData</Value>
+    </Setting>
+    <Setting Name="warehouse_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">warehouse</Value>
+    </Setting>
+    <Setting Name="WarehouseDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[4]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="ShipToCustomer_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ShipToCustomer</Value>
+    </Setting>
+    <Setting Name="shipmentMethod_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">shipmentMethod</Value>
+    </Setting>
+    <Setting Name="businesdiscountinspec_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">busines-discount</Value>
+    </Setting>
+    <Setting Name="createsameproduct_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">createsameproduct-button</Value>
+    </Setting>
+    <Setting Name="AllBusinessSpec_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cancel-button</Value>
+    </Setting>
+    <Setting Name="AllbusinesspsecApprove_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="estimate"]/tbody</Value>
+    </Setting>
+    <Setting Name="allspectable_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">td.ui-widget-content.subgrid-data &gt; div.tablediv &gt; div.ui-jqgrid.ui-widget.ui-widget-content.ui-corner-all &gt; div.ui-jqgrid-view &gt; div.ui-jqgrid-bdiv &gt; div &gt; table.ui-jqgrid-btable &gt; tbody &gt; tr.ui-widget-content.jqgrow.ui-row-ltr &gt; td:nth-child(10)</Value>
+    </Setting>
+    <Setting Name="copyestimatewithroutes_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">copy-estimate-with-routes</Value>
+    </Setting>
+    <Setting Name="allowAnyShipTo_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">allowAnyShipTo</Value>
+    </Setting>
+    <Setting Name="createestimatebutton_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">create-estimate</Value>
+    </Setting>
+    <Setting Name="Approvetest_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#price-saved-message &gt; div.modal-dialog &gt; div.modal-content &gt; div.modal-body</Value>
+    </Setting>
+    <Setting Name="editestimateform_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">edit-estimate-form</Value>
+    </Setting>
+    <Setting Name="createnewproduct_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">createnewproduct-button</Value>
+    </Setting>
+    <Setting Name="filterByProduct_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByProductID</Value>
+    </Setting>
+    <Setting Name="Estimatefilter_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">search</Value>
+    </Setting>
+    <Setting Name="SpecFilterTable_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#divMain &gt; div#gbox_list &gt; div#gview_list &gt; div.ui-jqgrid-bdiv &gt; div &gt; table#list &gt; tbody &gt; tr:nth-child(2) &gt; td:nth-child(3) &gt; a.estimate-screen-link.underline</Value>
+    </Setting>
+    <Setting Name="EstimateTable_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="estimate-price-table"]/tbody/tr[14]/td[2]</Value>
+    </Setting>
+    <Setting Name="Bundlestrappingmaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialID</Value>
+    </Setting>
+    <Setting Name="CopyExsistingEstimate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">copy-estimate-with-routes</Value>
+    </Setting>
+    <Setting Name="NumberPerBundle_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IB</Value>
+    </Setting>
+    <Setting Name="Estimategrid_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pricing-grid-container</Value>
+    </Setting>
+    <Setting Name="AssembledProductKit_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">productKit</Value>
+    </Setting>
+    <Setting Name="addproductKit_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">add_productKit</Value>
+    </Setting>
+    <Setting Name="ChildProductSpec_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ChildProductSpecID</Value>
+    </Setting>
+    <Setting Name="ChildSpec_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tr#tr_ChildProductSpecID &gt; td.DataTD &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item</Value>
+    </Setting>
+    <Setting Name="CostPercentage_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CostPercentage</Value>
+    </Setting>
+    <Setting Name="PartMultiplier_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NumberIn</Value>
+    </Setting>
+    <Setting Name="SubmitChildPart_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tr#Act_Buttons &gt; td.EditButton &gt; a#sData</Value>
+    </Setting>
+    <Setting Name="AssembleSplit_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)"> //div[starts-with(@id, 'pEstimateRoute')]/input[2]</Value>
+    </Setting>
+    <Setting Name="RevisionProduct_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btnIsNewRevision</Value>
+    </Setting>
+    <Setting Name="PartDivider_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NumberOut</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

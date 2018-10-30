@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="8" result="Failed" total="8" passed="1" failed="7" inconclusive="0" skipped="0" asserts="0" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-10-30 04:33:51Z" end-time="2018-10-30 04:34:16Z" duration="24.618313">
+  <command-line><![CDATA[nunit3-console.exe  D:\Nunit_Workspace\NUnitSamplec1\NUnitSample\bin\Debug\NUnitSample.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1013" name="NUnitSample.dll" fullname="D:\Nunit_Workspace\NUnitSamplec1\NUnitSample\bin\Debug\NUnitSample.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-10-30 04:33:52Z" end-time="2018-10-30 04:34:16Z" duration="23.461563" total="8" passed="1" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.6.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="D:\Nunit_Workspace\NUnitSamplec1" machine-name="MANOJRED-W10LT" user="manojred" user-domain="EFI" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\Nunit_Workspace\NUnitSamplec1" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="17872" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1014" name="NUnitSample" fullname="NUnitSample" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-10-30 04:33:52Z" end-time="2018-10-30 04:34:16Z" duration="23.416774" total="8" passed="1" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1004" name="SampleTestforLaunchBrowse" fullname="NUnitSample.SampleTestforLaunchBrowse" classname="NUnitSample.SampleTestforLaunchBrowse" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-10-30 04:33:52Z" end-time="2018-10-30 04:34:07Z" duration="14.724567" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1005" name="inapplication" fullname="NUnitSample.SampleTestforLaunchBrowse.inapplication" methodname="inapplication" classname="NUnitSample.SampleTestforLaunchBrowse" runstate="Runnable" seed="1863462494" result="Failed" label="Error" start-time="2018-10-30 04:33:56Z" end-time="2018-10-30 04:33:57Z" duration="0.414241" asserts="0">
+          <failure>
+            <message><![CDATA[System.Runtime.InteropServices.COMException : Retrieving the COM class factory for component with CLSID {00020819-0000-0000-C000-000000000046} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).]]></message>
+            <stack-trace><![CDATA[   at System.Runtime.Remoting.RemotingServices.AllocateUninitializedObject(RuntimeType objectType)
+   at System.Runtime.Remoting.Activation.ActivationServices.CreateInstance(RuntimeType serverType)
+   at System.Runtime.Remoting.Activation.ActivationServices.IsCurrentContextOK(RuntimeType serverType, Object[] props, Boolean bNewObj)
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at NUnitSample.ExcelFile.getrowcount(String testScenario) in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\Configurations\ExceldataReadUpdate.cs:line 59
+   at NUnitSample.SampleTestforLaunchBrowse.inapplication() in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\SampleTestforLaunchBrowser.cs:line 42]]></stack-trace>
+          </failure>
+          <output><![CDATA[Time 10_Tuesday, October 30, 2018
+Tuesday_October30_2018
+]]></output>
+        </test-case>
+        <test-case id="0-1006" name="mainbrowser" fullname="NUnitSample.SampleTestforLaunchBrowse.mainbrowser" methodname="mainbrowser" classname="NUnitSample.SampleTestforLaunchBrowse" runstate="Runnable" seed="921603182" result="Failed" label="Error" start-time="2018-10-30 04:33:57Z" end-time="2018-10-30 04:34:07Z" duration="10.504668" asserts="0">
+          <failure>
+            <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='center']/button[@id='createNew']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64)]]></message>
+            <stack-trace><![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at NUnitSample.SampleTestforLaunchBrowse.mainbrowser() in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\SampleTestforLaunchBrowser.cs:line 84
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)]]></stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestSuite" id="0-1015" name="Test" fullname="NUnitSample.Test" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-10-30 04:33:52Z" end-time="2018-10-30 04:34:16Z" duration="23.307420" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1010" name="SpecificationTest" fullname="NUnitSample.Test.SpecificationTest" classname="NUnitSample.Test.SpecificationTest" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-10-30 04:34:07Z" end-time="2018-10-30 04:34:16Z" duration="8.522759" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <output><![CDATA[Started the test test 1 
+]]></output>
+          <test-case id="0-1012" name="ExcelOperations" fullname="NUnitSample.Test.SpecificationTest.ExcelOperations" methodname="ExcelOperations" classname="NUnitSample.Test.SpecificationTest" runstate="Runnable" seed="1116550952" result="Passed" start-time="2018-10-30 04:34:07Z" end-time="2018-10-30 04:34:16Z" duration="8.399100" asserts="0">
+            <output><![CDATA[test2spec22
+HSCT JI TLWLW
+Pad
+before update123
+This is going to be updatedeee
+NEW UPDATED VALUE123.
+]]></output>
+          </test-case>
+          <test-case id="0-1011" name="NavigateToSpecification" fullname="NUnitSample.Test.SpecificationTest.NavigateToSpecification" methodname="NavigateToSpecification" classname="NUnitSample.Test.SpecificationTest" runstate="Runnable" seed="2088611485" result="Failed" label="Error" start-time="2018-10-30 04:34:16Z" end-time="2018-10-30 04:34:16Z" duration="0.026882" asserts="0">
+            <failure>
+              <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+              <stack-trace><![CDATA[   at NUnitSample.Test.SpecificationTest.NavigateToSpecification() in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\Test\SpecificationTest.cs:line 63]]></stack-trace>
+            </failure>
+            <output><![CDATA[Started the test test 1 
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1007" name="TestClass" fullname="NUnitSample.TestClass" classname="NUnitSample.TestClass" runstate="Runnable" testcasecount="2" result="Failed" label="Error" site="TearDown" start-time="2018-10-30 04:34:16Z" end-time="2018-10-30 04:34:16Z" duration="0.032763" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+          <stack-trace><![CDATA[   at NUnitSample.BaseClass.BaseTest.open() in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\BaseClass\BaseTest.cs:line 30
+--TearDown
+   at NUnitSample.BaseClass.BaseTest.close() in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\BaseClass\BaseTest.cs:line 36]]></stack-trace>
+        </failure>
+        <test-case id="0-1008" name="TestMethod" fullname="NUnitSample.TestClass.TestMethod" methodname="TestMethod" classname="NUnitSample.TestClass" runstate="Runnable" seed="1312449706" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+          </failure>
+        </test-case>
+        <test-case id="0-1009" name="TestMethod2" fullname="NUnitSample.TestClass.TestMethod2" methodname="TestMethod2" classname="NUnitSample.TestClass" runstate="Runnable" seed="457816179" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1000" name="ParalleleClass" fullname="NUnitSample.ParalleleClass" classname="NUnitSample.ParalleleClass" runstate="Runnable" testcasecount="2" result="Failed" label="Error" site="TearDown" start-time="2018-10-30 04:34:16Z" end-time="2018-10-30 04:34:16Z" duration="0.047449" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="ParallelScope" value="Self" />
+        </properties>
+        <failure>
+          <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+          <stack-trace><![CDATA[   at NUnitSample.BaseClass.BaseTest.open() in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\BaseClass\BaseTest.cs:line 30
+--TearDown
+   at NUnitSample.BaseClass.BaseTest.close() in D:\Nunit_Workspace\NUnitSamplec\NUnitSample\BaseClass\BaseTest.cs:line 36]]></stack-trace>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1003" name="ParallelMethod" fullname="NUnitSample.ParalleleClass.ParallelMethod" classname="NUnitSample.ParalleleClass" runstate="Runnable" testcasecount="2" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+          </failure>
+        </test-suite>
+        <test-case id="0-1001" name="ParallelMethod(&quot;ie&quot;)" fullname="NUnitSample.ParalleleClass.ParallelMethod(&quot;ie&quot;)" methodname="ParallelMethod" classname="NUnitSample.ParalleleClass" runstate="Runnable" seed="157966915" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+          </failure>
+        </test-case>
+        <test-case id="0-1002" name="ParallelMethod(&quot;chrome&quot;)" fullname="NUnitSample.ParalleleClass.ParallelMethod(&quot;chrome&quot;)" methodname="ParallelMethod" classname="NUnitSample.ParalleleClass" runstate="Runnable" seed="1208497637" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+          </failure>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
